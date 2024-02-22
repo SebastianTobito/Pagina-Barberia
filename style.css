@@ -1,5 +1,5 @@
-body{
-    
+.titulo-principal{
+    padding-left: 30px;
 }
 
 #banner{
@@ -11,8 +11,8 @@ body{
  padding: 20px;
 }
 
-h1{
-    text-align: center;
+.titulo-centrado{
+text-align: center;
 }
 
 p{
@@ -32,10 +32,6 @@ em strong{
     padding: 30px;
 }
 
-h2{
-    text-align: center;
-}
-
 .items{
  font-style: italic;
  display: inline-block;
@@ -44,7 +40,7 @@ h2{
  margin-right: 15%;
 
 }
-.imagenDiferenciales{
+.imagen-diferenciales{
     width: 50%;
     
 }
