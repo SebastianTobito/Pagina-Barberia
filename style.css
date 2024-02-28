@@ -47,7 +47,6 @@ nav a:hover {
 }
 .lista-productos li:hover {
   border-color: #c78c19;
-  
 }
 .lista-productos li:active {
   border-color: #088c19;
@@ -56,8 +55,8 @@ nav a:hover {
   font-size: 30px;
   font-weight: bold;
 }
-.lista-productos li:hover h2{
-    font-size: 33px;
+.lista-productos li:hover h2 {
+  font-size: 33px;
 }
 .producto-descripcion {
   font-size: 18px;
@@ -67,14 +66,34 @@ nav a:hover {
   font-weight: bold;
   margin-top: 10px;
 }
-footer{
-    text-align: center;
-    background:url(./img/bg.jpg);
-    padding: 40PX;
-    
+footer {
+  text-align: center;
+  background: url(./img/bg.jpg);
+  padding: 40px;
 }
-.copyright{
-    color: #FFFFFF;
-    font-size: 13px;
-    margin: 20px;
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px;
+}
+
+/*Estilos de contacto.html*/
+
+.main-contacto {
+  width: 940px;
+  margin: 0 auto;
+}
+form {
+  margin: 40px 0;
+}
+form label {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+form input {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
 }
