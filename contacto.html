@@ -21,18 +21,38 @@
       </div>
     </header>
     <main class="main-contacto">
-        <form action="">
-            <label for="nombreapellido">Nombre y apellido</label>
-            <input type="text" id="nombreapellido">
+      <form action="">
+        <label for="nombreapellido">Nombre y apellido</label>
+        <input type="text" id="nombreapellido" />
 
-            <label for="correoelectronico">Correo electrónico</label>
-            <input type="text" name="" id="correoelectronico">
+        <label for="correoelectronico">Correo electrónico</label>
+        <input type="text" name="" id="correoelectronico" />
 
-            <label for="telefono">Teléfono</label>
-            <input type="text" id="telefono">
+        <label for="telefono">Teléfono</label>
+        <input type="text" id="telefono" />
 
-            <input type="submit" value="Enviar">
-        </form>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" cols="70" rows="10"></textarea>
+
+        <div>
+          <p>¿Cómo le gustaría que lo contactemos?</p>
+
+          <label for="radio-email">Email</label>
+          <input type="radio" name="contacto" id="radio-email" value="email" />
+
+          <label for="radio-telefono">Telefono</label>
+          <input type="radio" name="contacto" id="radio-telefono" value="telefono"
+          />
+
+          <label for="radio-whatsapp">Whatsapp</label>
+          <input type="radio" name="contacto" id="radio-whatsapp" value="whatsapp"
+          />
+        </div>
+        <label for=""><input type="checkbox">¿Le gustaría recibir novedades de nuestra barbería?</label>
+
+        <input type="submit" value="Enviar" />
+
+      </form>
     </main>
     <footer>
       <img src="./img/logo-blanco.png" alt="logo" />
