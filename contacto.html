@@ -22,34 +22,40 @@
     </header>
     <main class="main-contacto">
       <form action="">
+
         <label for="nombreapellido">Nombre y apellido</label>
-        <input type="text" id="nombreapellido" />
+        <input type="text" id="nombreapellido" class="input-padron" />
 
         <label for="correoelectronico">Correo electrónico</label>
-        <input type="text" name="" id="correoelectronico" />
+        <input type="text" name="" id="correoelectronico" class="input-padron" />
 
         <label for="telefono">Teléfono</label>
-        <input type="text" id="telefono" />
+        <input type="text" id="telefono" class="input-padron" />
 
         <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" cols="70" rows="10"></textarea>
+        <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
 
         <div>
+
           <p>¿Cómo le gustaría que lo contactemos?</p>
 
-          <label for="radio-email">Email</label>
-          <input type="radio" name="contacto" id="radio-email" value="email" />
+          <label for="radio-email"><input type="radio" name="contacto" id="radio-email" value="email" />Email</label>
+          
+          <label for="radio-telefono"><input type="radio" name="contacto" id="radio-telefono" value="telefono"/>Telefono</label>
 
-          <label for="radio-telefono">Telefono</label>
-          <input type="radio" name="contacto" id="radio-telefono" value="telefono"
-          />
+          <label for="radio-whatsapp"><input type="radio" name="contacto" id="radio-whatsapp" value="whatsapp"/>Whatsapp</label>
 
-          <label for="radio-whatsapp">Whatsapp</label>
-          <input type="radio" name="contacto" id="radio-whatsapp" value="whatsapp"
-          />
         </div>
-        <label for=""><input type="checkbox">¿Le gustaría recibir novedades de nuestra barbería?</label>
 
+        <div>
+        <p>¿En cuál horario prefiere ser atendido</p>
+        <select>
+          <option value="">Mañana</option>
+          <option value="">Tarde</option>
+          <option value="">Noche</option>
+        </select>
+        </div>
+        <label class="checkbox" for=""><input type="checkbox" />¿Le gustaría recibir novedades de nuestrabarbería?</label>
         <input type="submit" value="Enviar" />
 
       </form>
