@@ -3,21 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style-home.css" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    
     <title>Barber Beast</title>
   </head>
   <body>
 
     <header>
-     <h1 class="titulo-principal">Barber Beast</h1>
+      <div class="caja">
+        <h1><img src="./img/logo.png" alt="" /></h1>
+        <nav>
+          <ul class="navegacion">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./porductos.html">Productos</a></li>
+            <li><a href="https://www.google.com/">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <img id="banner" src="/img/banner.jpg" alt="banner" />
-    
-    <div class="principal">
+       <img class="banner" src="/img/banner.jpg" alt="banner" />
+<main>
 
-      <h2 class="titulo-centrado">Sobre Beast Barber</h2>
+ 
+    <section class="principal">
+      
+      <h2 class="titulo-principal">Sobre Beast Barber</h2>
 
+      <img class="implementos" src="./img/material para barberia-1.webp" alt="implementos">
+      
       <p>Ubicada en el centro de Bogotá, traemos lo último en cuidado del cabello
         y de la barba. Fundada en 2024, <strong>Beast Barber </strong> destaca
         en la ciudad y atre nuevos clientes todos los días.</p>
@@ -29,11 +44,11 @@
         tendencias en el mundo de la moda. La barbería posee altos entandares de
         calidad tanto en sus profesionales como en los implementos que estos
         usan para el cuidado de nuestros clientes</p>
-    </div>
+    </section>
 
-    <div class = "diferenciales">
+    <section class = "diferenciales">
 
-        <h3 class="titulo-centrado">Diferenciales</h3>
+        <h3 class="titulo-principal">Diferenciales</h3>
 
     <ul class="items">
 
@@ -45,6 +60,12 @@
     </ul>
 
     <img class= "imagen-diferenciales" src="./img/diferenciales.jpg" alt="diferenciales">
-    </div>
+    </section>
+</main>
+    <footer>
+      <img src="./img/logo-blanco.png" alt="logo">
+      <p class="copyright">&copy Copyright Barberia - 2024</p>
+    </footer>
+
   </body>
 </html>
