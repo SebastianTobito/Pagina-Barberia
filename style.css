@@ -70,6 +70,11 @@ font-weight: bold;
 .imagen-diferenciales{
   width: 60%;
   height: 250px;
+  transition: 400ms;
+}
+.imagen-diferenciales:hover{
+  opacity: 60%;
+  
 }
 .video{
   width:560px;
