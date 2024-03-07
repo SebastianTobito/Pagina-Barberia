@@ -63,7 +63,9 @@ width: 100%;
 }
 .items:first-child{
 font-weight: bold;
-
+}
+.items:before{
+  content: "★";
 }
 .imagen-diferenciales{
   width: 60%;
