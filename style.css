@@ -71,10 +71,10 @@ font-weight: bold;
   width: 60%;
   height: 250px;
   transition: 400ms;
+  box-shadow: 10px 10px 40px 15px #000000;
 }
 .imagen-diferenciales:hover{
   opacity: 60%;
-  
 }
 .video{
   width:560px;
