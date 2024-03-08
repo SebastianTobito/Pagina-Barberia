@@ -213,3 +213,29 @@ th, td{
   border: 1px solid #000000;
   padding: 8px 15px;
 }
+
+@media screen and (max-width:480px) {
+  h1{
+    text-align: center;
+  }
+  nav{
+    position: static;
+  }
+ .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+   width: auto;
+ }
+ .items-diferenciales{
+  width: 100%;
+ }
+}
+@media screen and (max-width:940px) {
+  h1{
+    text-align: center;
+  }
+  nav{
+    position: static;
+  }
+ .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+   width: auto;
+ }
+}
